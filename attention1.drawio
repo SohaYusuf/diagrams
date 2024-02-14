@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T17:15:55.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="JaK_uvhccCCApKOx19Rh" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T17:17:34.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="TUBKA_Lmw0PmuDbFTisa" version="23.1.2" type="github">
   <diagram name="Page-1" id="EqUo6qouE3fi65UfHQtc">
     <mxGraphModel dx="1434" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ISGzy-34V6N_wHo-aqIj-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="182" y="60" width="570" height="460" as="geometry" />
+        </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ISGzy-34V6N_wHo-aqIj-1" target="ISGzy-34V6N_wHo-aqIj-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -82,13 +85,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-31" value="$$x_i \text{ for } i \in[1...T] $$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-80" width="190" height="60" as="geometry" />
+          <mxGeometry x="104" y="-116" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="ISGzy-34V6N_wHo-aqIj-32" target="ISGzy-34V6N_wHo-aqIj-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-32" value="$$q_i =z_i&lt;br style=&quot;font-size: 20px;&quot;&gt;W^{q}\text{ for } i \in[1...T]&lt;br style=&quot;font-size: 20px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-160" width="260" height="60" as="geometry" />
+          <mxGeometry x="564" y="-196" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="ISGzy-34V6N_wHo-aqIj-33" target="ISGzy-34V6N_wHo-aqIj-35">
           <mxGeometry relative="1" as="geometry" />
@@ -100,28 +103,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-33" value="$$z_i = x_i W^{x}$$$$\text{ for } i \in[1...T]&lt;br style=&quot;font-size: 20px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-100" width="150" height="100" as="geometry" />
+          <mxGeometry x="334" y="-136" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="ISGzy-34V6N_wHo-aqIj-34" target="ISGzy-34V6N_wHo-aqIj-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-34" value="$$v_i =z_i&lt;br style=&quot;font-size: 20px;&quot;&gt;W^{v}\text{ for } i \in[1...T]&lt;br style=&quot;font-size: 20px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="560" y="10" width="260" height="60" as="geometry" />
+          <mxGeometry x="564" y="-26" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="ISGzy-34V6N_wHo-aqIj-35" target="ISGzy-34V6N_wHo-aqIj-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-35" value="$$k_i =z_i&lt;br style=&quot;font-size: 20px;&quot;&gt;W^{k}\text{ for } i \in[1...T]&lt;br style=&quot;font-size: 20px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-80" width="260" height="60" as="geometry" />
+          <mxGeometry x="564" y="-116" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-40" value="$$Q = [q_1,q_2,...q_T] \in \mathbb{R}^{T \times d}$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="860" y="-160" width="280" height="60" as="geometry" />
+          <mxGeometry x="864" y="-196" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-41" value="$$V=[v_1,v_2,...v_T]\in \mathbb{R}^{T \times d}&lt;br style=&quot;font-size: 20px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="860" y="10" width="280" height="60" as="geometry" />
+          <mxGeometry x="864" y="-26" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-42" value="$$K=[k_1,k_2,...k_T]\in \mathbb{R}^{T \times d}&lt;br style=&quot;font-size: 20px;&quot;&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="860" y="-80" width="280" height="60" as="geometry" />
+          <mxGeometry x="864" y="-116" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISGzy-34V6N_wHo-aqIj-46" value="$$\text{ For }T=3$$" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
