@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T17:10:26.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="JG34AWR0rcmU1Zr4wWrF" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T17:11:20.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="uEKhtN1H6C6XbKma4WlL" version="23.1.2" type="github">
   <diagram name="Page-1" id="EqUo6qouE3fi65UfHQtc">
     <mxGraphModel dx="1434" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="1" shadow="0">
       <root>
@@ -84,8 +84,8 @@
         <mxCell id="ISGzy-34V6N_wHo-aqIj-31" value="$$x_i \text{ for } i \in[1...T] $$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="110" y="-80" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ISGzy-34V6N_wHo-aqIj-32" value="$$q_i = W^{Q}z_i$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="570" y="-160" width="120" height="60" as="geometry" />
+        <mxCell id="ISGzy-34V6N_wHo-aqIj-32" value="$$q_i =z_i&lt;br&gt;W^{Q}\text{ for } i \in[1...T]&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-160" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISGzy-34V6N_wHo-aqIj-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="ISGzy-34V6N_wHo-aqIj-33" target="ISGzy-34V6N_wHo-aqIj-35">
           <mxGeometry relative="1" as="geometry" />
@@ -99,11 +99,11 @@
         <mxCell id="ISGzy-34V6N_wHo-aqIj-33" value="$$z_i = x_i W^{X}$$$$\text{ for } i \in[1...T]&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="340" y="-100" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ISGzy-34V6N_wHo-aqIj-34" value="$$v_i = W^{V} z_i$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="570" y="10" width="120" height="60" as="geometry" />
+        <mxCell id="ISGzy-34V6N_wHo-aqIj-34" value="$$v_i =z_i&lt;br&gt;W^{V}\text{ for } i \in[1...T]&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="570" y="10" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ISGzy-34V6N_wHo-aqIj-35" value="$$k_i = W^{K} z_i$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="570" y="-80" width="120" height="60" as="geometry" />
+        <mxCell id="ISGzy-34V6N_wHo-aqIj-35" value="$$k_i =z_i&lt;br&gt;W^{K}\text{ for } i \in[1...T]&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-80" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
