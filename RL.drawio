@@ -27,7 +27,7 @@
           <mxGeometry x="440" y="320" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="c6xofA1sn_3DLMmSxvKZ-5" value="$$\text{observation }&amp;nbsp; o_t$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="207" y="254" width="150" height="30" as="geometry" />
+          <mxGeometry x="120" y="260" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c6xofA1sn_3DLMmSxvKZ-6" value="$$\text{reward } r_t$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="217" y="304" width="110" height="30" as="geometry" />
