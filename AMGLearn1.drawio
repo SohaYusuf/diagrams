@@ -28,8 +28,11 @@
         <mxCell id="t7H4enkIU8ulNd7rulKI-6" value="$$G_M=(V_M,E_M)$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="722" y="250" width="238" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Km1miFmpee2wp0UGs5EB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Km1miFmpee2wp0UGs5EB-3" target="t7H4enkIU8ulNd7rulKI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Km1miFmpee2wp0UGs5EB-3" value="&lt;div&gt;F-Fraction&lt;/div&gt;&lt;div&gt;Diagonal Dominance&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="710" y="380" width="266" height="90" as="geometry" />
+          <mxGeometry x="708" y="380" width="266" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
