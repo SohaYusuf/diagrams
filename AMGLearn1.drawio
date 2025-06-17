@@ -67,14 +67,26 @@
         <mxCell id="Rq15LC-haqhljMWJH_8i-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="Rq15LC-haqhljMWJH_8i-12" target="Rq15LC-haqhljMWJH_8i-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rq15LC-haqhljMWJH_8i-37" value="$$\text{New State }s&#39;$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="500" y="450" width="140" height="70" as="geometry" />
+        <mxCell id="Rq15LC-haqhljMWJH_8i-37" value="$$\text{New State }s&#39;$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Rq15LC-haqhljMWJH_8i-38" value="Q-values" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="60" y="380" width="100" height="60" as="geometry" />
+        <mxCell id="Rq15LC-haqhljMWJH_8i-38" value="Q-values" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rq15LC-haqhljMWJH_8i-39" value="$$\text{New State }s&#39;$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="Rq15LC-haqhljMWJH_8i-39" value="$$\text{State }s$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="-270" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rq15LC-haqhljMWJH_8i-40" value="&lt;div&gt;Reward&lt;/div&gt;&lt;div&gt;Termination&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="110" y="50" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rq15LC-haqhljMWJH_8i-41" value="$$\text{action } a$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="143" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rq15LC-haqhljMWJH_8i-42" value="Node to coarsen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="680" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rq15LC-haqhljMWJH_8i-43" value="&lt;div&gt;Updated graph&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="687" y="350" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
