@@ -127,16 +127,6 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-39" value="Graph G" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="640" y="370" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="520" as="sourcePoint" />
-            <mxPoint x="290" y="490" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="320" y="520" />
-              <mxPoint x="320" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-41" value="State s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="120" y="530" width="50" height="20" as="geometry" />
         </mxCell>
