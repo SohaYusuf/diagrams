@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="27.1.6">
   <diagram name="DQN Training Pipeline" id="cIPJ17noC-63OSlOP32A">
-    <mxGraphModel dx="1174" dy="1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1425" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,6 +16,9 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-4" value="Poisson Equation:&lt;br&gt;-∇²u = f in Ω&lt;br&gt;u = g on ∂Ω" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="100" y="100" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="KDZemfigxlycDHmn7WBv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="a1y6z1xsHB1Ryk2dD1gB-5" target="a1y6z1xsHB1Ryk2dD1gB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-5" value="Finite Element&lt;br&gt;Method (FEM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="350" y="110" width="150" height="40" as="geometry" />
         </mxCell>
@@ -25,7 +28,7 @@
             <mxPoint x="350" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-7" value="Linear System: Ax = b&lt;br&gt;A ∈ ℝⁿˣⁿ is Symmetric Positive Definite (SPD)&lt;br&gt;A is sparse with connectivity from mesh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#c62828;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-7" value="Linear System: Ax = b" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#c62828;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="550" y="100" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#f57c00;strokeWidth=2;" parent="1" vertex="1">
