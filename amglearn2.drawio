@@ -142,7 +142,7 @@
             <mxPoint x="372" y="479.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-46" value="Action a" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-46" value="$$a_t = i$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="295" y="450" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;dashed=1;strokeColor=#388e3c;entryX=0.736;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="a1y6z1xsHB1Ryk2dD1gB-8">
@@ -154,8 +154,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-48" value="coarsen node i" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="570" y="410" width="80" height="30" as="geometry" />
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-48" value="$$i \in V,&amp;nbsp; \mathcal{C} \leftarrow \mathcal{C} \cup \{i\}&lt;br&gt;&amp;nbsp;$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="550" y="410" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;dashed=1;strokeColor=#f57c00;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -163,8 +163,8 @@
             <mxPoint x="450" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-50" value="G&#39;=(V&#39;,E&#39;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="372" y="405" width="70" height="40" as="geometry" />
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-50" value="$$G_{t+1}=(V_{t+1},E_{t+1})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="285" y="360" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -256,11 +256,11 @@
         <mxCell id="KDZemfigxlycDHmn7WBv-13" value="$$A$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="430" y="270" width="25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KDZemfigxlycDHmn7WBv-14" value="$$G=(V,E)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="KDZemfigxlycDHmn7WBv-14" value="$$G_t=(V_t,E_t)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="480.5" y="270" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KDZemfigxlycDHmn7WBv-16" value="$$\mathcal{F},\mathcal{C},\mathcal{V}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="450.5" y="300" width="60" height="30" as="geometry" />
+          <mxGeometry x="470" y="300" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
