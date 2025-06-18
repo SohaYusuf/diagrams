@@ -212,7 +212,7 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-57" value="Episode metrics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="503" y="661" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;dashed=1;strokeColor=#ff6f00;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="a1y6z1xsHB1Ryk2dD1gB-18" source="a1y6z1xsHB1Ryk2dD1gB-36">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;dashed=1;strokeColor=#ff6f00;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" edge="1" target="a1y6z1xsHB1Ryk2dD1gB-18" source="a1y6z1xsHB1Ryk2dD1gB-36">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="840" as="sourcePoint" />
             <mxPoint x="70" y="520" as="targetPoint" />
