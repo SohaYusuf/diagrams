@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="27.1.6">
   <diagram name="DQN Training Pipeline" id="cIPJ17noC-63OSlOP32A">
-    <mxGraphModel dx="2503" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1698" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,11 +46,11 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-12" value="$$A$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="511" y="193" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=3;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=3;dashed=1;dashPattern=8 8;arcSize=9;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="10" y="400" width="1060" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-14" value="DQN Training Loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="55" y="415" width="220" height="30" as="geometry" />
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-14" value="DQN Training Loop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="30" y="420" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KDZemfigxlycDHmn7WBv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=0;strokeWidth=3;fillColor=#60a917;strokeColor=#388E3C;" edge="1" parent="1" source="a1y6z1xsHB1Ryk2dD1gB-15" target="a1y6z1xsHB1Ryk2dD1gB-24">
           <mxGeometry relative="1" as="geometry" />
@@ -113,6 +113,9 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-26" value="Stores transitions:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="850" y="483" width="150" height="27" as="geometry" />
         </mxCell>
+        <mxCell id="KDZemfigxlycDHmn7WBv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="a1y6z1xsHB1Ryk2dD1gB-27" target="a1y6z1xsHB1Ryk2dD1gB-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ffa000;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="820" y="655" width="220" height="100" as="geometry" />
         </mxCell>
@@ -121,24 +124,6 @@
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-29" value="â€¢ Sample batch&lt;br&gt;â€¢ Compute TD targets&lt;br&gt;â€¢ Gradient descent on loss&lt;br&gt;â€¢ Update target network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="840" y="690" width="180" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="400" y="690" width="300" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-31" value="5. Convergence Check" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="437" y="700" width="225" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-32" value="â€¢ Average reward stabilized?&lt;br&gt;â€¢ Success rate &amp;gt; threshold?&lt;br&gt;â€¢ Maximum episodes reached?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="435" y="725" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-33" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#3f51b5;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="119" y="800" width="220" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-34" value="4. Diagonal Dominance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="169" y="810" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-35" value="A_í µí³•í µí³• is diag. dominant if:&lt;br&gt;âˆ€iâˆˆí µí³•: |aáµ¢áµ¢| &amp;gt; Î¸âˆ‘â±¼â‰ áµ¢|aáµ¢â±¼|&lt;br&gt;(Î¸ = 1.2 for strict dominance)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="134" y="835" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-37" value="Trained Policy Ï€*&lt;br&gt;Coarsens to achieve A_í µí³•í µí³• diagonal dominance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;strokeWidth=2;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="830" y="930" width="240" height="60" as="geometry" />
@@ -173,12 +158,6 @@
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-52" value="$$(s_t,a_t,r_t,s_{t+1})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="690" y="495" width="105" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="580" as="sourcePoint" />
-            <mxPoint x="550" y="690" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;dashed=1;strokeColor=#ff6f00;curved=0;" parent="1" edge="1" source="a1y6z1xsHB1Ryk2dD1gB-36">
           <mxGeometry relative="1" as="geometry">
