@@ -162,7 +162,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-50" value="$$G_{t+1}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="455" y="410" width="56.5" height="40" as="geometry" />
+          <mxGeometry x="455" y="415" width="56.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-52" value="$$(s_t,a_t,r_t,s_{t+1})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="682.5" y="470" width="105" height="20" as="geometry" />
