@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="27.1.6">
   <diagram name="DQN Training Pipeline" id="cIPJ17noC-63OSlOP32A">
-    <mxGraphModel dx="1425" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1425" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,13 +32,10 @@
           <mxGeometry x="570" y="115" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#f57c00;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="350" y="220" width="300" height="140" as="geometry" />
+          <mxGeometry x="400" y="220" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-9" value="2. Grid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="425" y="230" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-10" value="&lt;ul&gt;&lt;li&gt;Constructs graph G = (V, E) from A&lt;/li&gt;&lt;li&gt;Tracks fine/coarse sets í µí³•, í µí³’&lt;/li&gt;&lt;li&gt;Computes violations í µí³¥&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="372" y="253" width="265" height="90" as="geometry" />
+          <mxGeometry x="415" y="230" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -150,10 +147,10 @@
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;dashed=1;strokeColor=#388e3c;entryX=0.736;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="a1y6z1xsHB1Ryk2dD1gB-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="547" y="450" as="sourcePoint" />
             <mxPoint x="570" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="571" y="450" />
+              <mxPoint x="547" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -252,6 +249,18 @@
         </mxCell>
         <mxCell id="KDZemfigxlycDHmn7WBv-9" value="&lt;div&gt;Reward r&lt;/div&gt;&lt;div&gt;Termination &lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="285" y="540" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KDZemfigxlycDHmn7WBv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="KDZemfigxlycDHmn7WBv-13" target="KDZemfigxlycDHmn7WBv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KDZemfigxlycDHmn7WBv-13" value="$$A$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDZemfigxlycDHmn7WBv-14" value="$$G=(V,E)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="480.5" y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDZemfigxlycDHmn7WBv-16" value="$$\mathcal{F},\mathcal{C},\mathcal{V}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="450.5" y="300" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
