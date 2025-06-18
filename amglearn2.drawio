@@ -32,7 +32,7 @@
           <mxGeometry x="630" y="115" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#f57c00;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="400" y="220" width="200" height="130" as="geometry" />
+          <mxGeometry x="400" y="220" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-9" value="2. Grid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="415" y="230" width="150" height="30" as="geometry" />
@@ -139,12 +139,12 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-46" value="$$a_t = i$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="295" y="450" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;dashed=1;strokeColor=#2D7600;entryX=0.736;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;fillColor=#60a917;" parent="1" edge="1" target="a1y6z1xsHB1Ryk2dD1gB-8">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;dashed=1;strokeColor=#2D7600;curved=0;fillColor=#60a917;entryX=0.704;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="a1y6z1xsHB1Ryk2dD1gB-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="470" as="sourcePoint" />
-            <mxPoint x="570" y="370" as="targetPoint" />
+            <mxPoint x="547" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="547" y="470" />
+              <mxPoint x="548" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
