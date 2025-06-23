@@ -156,7 +156,7 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-61" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="663" y="839" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0WD2NH_bVvcCapfqEFzb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=#FF6F00;strokeWidth=2;dashed=1;" edge="1" parent="1" source="a1y6z1xsHB1Ryk2dD1gB-36" target="a1y6z1xsHB1Ryk2dD1gB-18">
+        <mxCell id="0WD2NH_bVvcCapfqEFzb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=#7B1FA2;strokeWidth=3;dashed=1;" edge="1" parent="1" source="a1y6z1xsHB1Ryk2dD1gB-36" target="a1y6z1xsHB1Ryk2dD1gB-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-40" y="829" />
