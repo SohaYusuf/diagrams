@@ -128,7 +128,7 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-37" value="Trained Policy π*&lt;br&gt;Coarsens to achieve A_������������ diagonal dominance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;strokeWidth=2;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="830" y="930" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-46" value="$$a_t = i$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-46" value="$$a_t = i$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="325" y="460" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;endArrow=classic;endFill=1;dashed=1;strokeColor=#388E3C;curved=0;fillColor=#60a917;entryX=0.704;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="a1y6z1xsHB1Ryk2dD1gB-8" edge="1">
@@ -153,10 +153,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-50" value="$$G_{t+1}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-50" value="$$G_{t+1}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="460.5" y="420" width="56.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-52" value="$$(s_t,a_t,r_t,s_{t+1})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-52" value="$$(s_t,a_t,r_t,s_{t+1})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="690" y="492" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;endArrow=classic;endFill=1;dashed=1;strokeColor=#ff6f00;curved=0;" parent="1" source="a1y6z1xsHB1Ryk2dD1gB-36" edge="1">
@@ -210,10 +210,10 @@
         <mxCell id="KDZemfigxlycDHmn7WBv-24" value="$$&lt;br&gt;Q(G; \theta) = \mathrm{MLP}\left( \mathrm{ReLU} \left( \tilde{\mathbf{D}}^{-\frac{1}{2}} \tilde{\mathbf{A}} \tilde{\mathbf{D}}^{-\frac{1}{2}} \mathbf{X} \mathbf{W}^{(0)} \right) \right)&lt;br&gt;$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="46" y="682.5" width="295" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="KDZemfigxlycDHmn7WBv-26" value="$$Q$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
+        <mxCell id="KDZemfigxlycDHmn7WBv-26" value="$$Q$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="240" y="604" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KDZemfigxlycDHmn7WBv-28" value="$$s_t$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;" parent="1" vertex="1">
+        <mxCell id="KDZemfigxlycDHmn7WBv-28" value="$$s_t$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="142" y="597" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
