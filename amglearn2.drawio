@@ -34,7 +34,7 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#f57c00;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="400" y="220" width="210" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-9" value="2. Grid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-9" value="2. Grid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="415" y="230" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;" parent="1" edge="1">
@@ -74,8 +74,8 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="40" y="468" width="270" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-19" value="DQN Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="119" y="478" width="100" height="20" as="geometry" />
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-19" value="DQN Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="119" y="478" width="121" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-20" value="$$a_t \sim&lt;br&gt;\begin{cases}&lt;br&gt;\mathcal{U}(\mathcal{A}), &amp;amp; \text{with } \varepsilon \\&lt;br&gt;\arg\max\limits_{a \in \mathcal{A}} Q(s_t, a; \theta), &amp;amp; \text{with } 1 - \varepsilon&lt;br&gt;\end{cases}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="55" y="503" width="245" height="70" as="geometry" />
@@ -83,8 +83,8 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="43.5" y="648.75" width="300" height="81.25" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-22" value="GNN Q-Network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="125" y="658" width="150" height="20" as="geometry" />
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-22" value="GNN Q-Network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="120" y="658" width="165" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KDZemfigxlycDHmn7WBv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;fillColor=#1ba1e2;strokeColor=#000000;fontColor=default;" parent="1" source="a1y6z1xsHB1Ryk2dD1gB-24" target="a1y6z1xsHB1Ryk2dD1gB-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -92,8 +92,8 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0288d1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="830" y="450" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-25" value="Replay Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="860" y="460" width="140" height="20" as="geometry" />
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-25" value="Replay Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="852" y="460" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-26" value="Stores transitions:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="850" y="483" width="150" height="27" as="geometry" />
@@ -104,7 +104,7 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ffa000;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="820" y="655" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-28" value="Training Update" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-28" value="Training Update" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="860" y="665" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-29" value="• Sample batch&lt;br&gt;• Compute TD targets&lt;br&gt;• Gradient descent on loss&lt;br&gt;• Update target network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
