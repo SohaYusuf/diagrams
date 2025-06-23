@@ -43,7 +43,7 @@
             <mxPoint x="500" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-12" value="$$A$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-12" value="$$A$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" parent="1" vertex="1">
           <mxGeometry x="511" y="193" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=3;dashed=1;dashPattern=8 8;arcSize=9;fontColor=#333333;" parent="1" vertex="1">
@@ -140,8 +140,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-48" value="$$\mathcal{C} \leftarrow \mathcal{C} \cup \{i\}&lt;br&gt;&amp;nbsp;$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="561" y="425" width="105" height="30" as="geometry" />
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-48" value="$$\mathcal{C} \leftarrow \mathcal{C} \cup \{i\}&lt;br&gt;&amp;nbsp;$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="574" y="425" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;endArrow=classic;endFill=1;dashed=1;strokeColor=#f57c00;exitX=0.25;exitY=1;exitDx=0;exitDy=0;curved=0;" parent="1" source="a1y6z1xsHB1Ryk2dD1gB-8" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -153,8 +153,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-50" value="$$G_{t+1}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="454.5" y="420" width="56.5" height="40" as="geometry" />
+        <mxCell id="a1y6z1xsHB1Ryk2dD1gB-50" value="$$G_{t+1}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="460.5" y="420" width="56.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-52" value="$$(s_t,a_t,r_t,s_{t+1})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="690" y="495" width="105" height="20" as="geometry" />
