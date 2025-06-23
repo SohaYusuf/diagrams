@@ -142,7 +142,7 @@
           <mxGeometry x="460.5" y="420" width="56.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-52" value="$$(s_t,a_t,r_t,s_{t+1})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="690" y="540" width="105" height="20" as="geometry" />
+          <mxGeometry x="687" y="538" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;endArrow=classic;endFill=1;dashed=1;strokeColor=#ff6f00;curved=0;" parent="1" source="a1y6z1xsHB1Ryk2dD1gB-36" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -174,7 +174,7 @@
         <mxCell id="a1y6z1xsHB1Ryk2dD1gB-36" value="Converged?" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;strokeWidth=2;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="415" y="940" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="KDZemfigxlycDHmn7WBv-7" value="&lt;ul&gt;&lt;li&gt;State&amp;nbsp; : x, edge_attr, edge_index&lt;/li&gt;&lt;li&gt;Action space: Discrete(N)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="KDZemfigxlycDHmn7WBv-7" value="&lt;div&gt;State : G = (V,E)&lt;/div&gt;&lt;div&gt;Action : node to coarsen from N &lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="420" y="520" width="227.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="KDZemfigxlycDHmn7WBv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="KDZemfigxlycDHmn7WBv-13" target="KDZemfigxlycDHmn7WBv-14" edge="1">
@@ -189,7 +189,7 @@
         <mxCell id="KDZemfigxlycDHmn7WBv-16" value="$$\mathcal{F},\mathcal{C},\mathcal{V}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="470" y="300" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KDZemfigxlycDHmn7WBv-18" value="$$(s_t,a_t,r_t,s_{t+1},\text{done})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="KDZemfigxlycDHmn7WBv-18" value="$$(s_t,a_t,r_t,s_{t+1},\text{done})$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="872.5" y="510" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KDZemfigxlycDHmn7WBv-24" value="$$&lt;br&gt;Q(G; \theta) = \mathrm{MLP}\left( \mathrm{ReLU} \left( \tilde{\mathbf{D}}^{-\frac{1}{2}} \tilde{\mathbf{A}} \tilde{\mathbf{D}}^{-\frac{1}{2}} \mathbf{X} \mathbf{W}^{(0)} \right) \right)&lt;br&gt;$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
