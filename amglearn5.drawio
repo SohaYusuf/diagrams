@@ -156,7 +156,7 @@
           <mxGeometry x="1275" y="551" width="635" height="489" as="geometry" />
         </mxCell>
         <mxCell id="696BfrAL2GcOmP5MZBCD-55" value="Reinforcement Learning Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1380" y="564" width="450" height="30" as="geometry" />
+          <mxGeometry x="1376" y="574" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="696BfrAL2GcOmP5MZBCD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="696BfrAL2GcOmP5MZBCD-56" target="696BfrAL2GcOmP5MZBCD-57">
           <mxGeometry relative="1" as="geometry" />
