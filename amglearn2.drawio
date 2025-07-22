@@ -209,24 +209,26 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1686" y="978" width="565" height="110" as="geometry" />
+          <mxGeometry x="1760" y="978" width="491" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-2" value="1. Poisson Equation → Linear System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1775" y="988" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-3" value="Poisson Equation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1684" y="1018" width="150" height="60" as="geometry" />
+          <mxGeometry x="1767" y="1018" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y0RkEYPqezOAxE-aHTsh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="Y0RkEYPqezOAxE-aHTsh-5" target="Y0RkEYPqezOAxE-aHTsh-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Y0RkEYPqezOAxE-aHTsh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" target="Y0RkEYPqezOAxE-aHTsh-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2070" y="1048" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-5" value="Finite Element&lt;br&gt;Method (FEM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1896" y="1028" width="150" height="40" as="geometry" />
+          <mxGeometry x="1938.5" y="1028" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1831" y="1048" as="sourcePoint" />
-            <mxPoint x="1901" y="1048" as="targetPoint" />
+            <mxPoint x="1910" y="1048" as="sourcePoint" />
+            <mxPoint x="1951" y="1048" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-7" value="A x = b" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#c62828;fontSize=18;" vertex="1" parent="1">
@@ -242,10 +244,10 @@
           <mxGeometry x="2257" y="999" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=default;strokeWidth=2;arcSize=9;fontColor=#333333;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="1673" y="1164" width="890" height="490" as="geometry" />
+          <mxGeometry x="1760" y="1160" width="803" height="494" as="geometry" />
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-13" value="PPO Training Loop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1693" y="1171" width="220" height="30" as="geometry" />
+          <mxGeometry x="1778" y="1169" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="Y0RkEYPqezOAxE-aHTsh-16" target="Y0RkEYPqezOAxE-aHTsh-8">
           <mxGeometry relative="1" as="geometry" />
@@ -299,7 +301,7 @@
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-31" value="&lt;div&gt;Sample batch&lt;/div&gt;&lt;div&gt;Update network weights&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1904" y="1416.88" width="190" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Y0RkEYPqezOAxE-aHTsh-32" value="Trained Policy π*&lt;br&gt;Coarsens to achieve A_FF diagonal dominance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="Y0RkEYPqezOAxE-aHTsh-32" value="Trained Policy π*&lt;br&gt;Coarsens to achieve A_FF diagonal dominance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;strokeWidth=2;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="2307" y="1554" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Y0RkEYPqezOAxE-aHTsh-33" value="$$a_t = i$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="1">
