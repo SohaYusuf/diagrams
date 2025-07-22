@@ -258,10 +258,13 @@
         <mxCell id="696BfrAL2GcOmP5MZBCD-4" value="$$&lt;br&gt;-\nabla^2 u(\mathbf{x}) = f(\mathbf{x}), &lt;br&gt;\quad \mathbf{x} \in \Omega&lt;br&gt;$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1320" y="162" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="696BfrAL2GcOmP5MZBCD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="696BfrAL2GcOmP5MZBCD-6" target="696BfrAL2GcOmP5MZBCD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="696BfrAL2GcOmP5MZBCD-6" value="Finite Element&lt;br&gt;Method (FEM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1560" y="177" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="696BfrAL2GcOmP5MZBCD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1">
+        <mxCell id="696BfrAL2GcOmP5MZBCD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1510" y="192" as="sourcePoint" />
             <mxPoint x="1560" y="192" as="targetPoint" />
