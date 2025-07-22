@@ -53,7 +53,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="696BfrAL2GcOmP5MZBCD-57" value="&lt;div&gt;&lt;b&gt;&lt;font&gt;State (Observation)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Current graph structure&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;C/F node labels&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="2420" y="419" width="240" height="100" as="geometry" />
+          <mxGeometry x="2420" y="411" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="696BfrAL2GcOmP5MZBCD-64" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;" parent="1" source="696BfrAL2GcOmP5MZBCD-58" target="696BfrAL2GcOmP5MZBCD-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
