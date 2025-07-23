@@ -144,6 +144,12 @@
             <mxPoint x="1000.96" y="784.9200000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zBiLx9GL32g1hffTJtXD-13" value="$$A$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="463.97" y="468" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBiLx9GL32g1hffTJtXD-14" value="$$A_{FF}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="473" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
