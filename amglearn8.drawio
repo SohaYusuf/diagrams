@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="28.0.6">
   <diagram name="Page-1" id="h0d4ksvBFhW0azYrWCu7">
-    <mxGraphModel>
+    <mxGraphModel dx="1144" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="50" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-3" value="Poisson Equation → Linear System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1537" y="65" width="448" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-4" value="$$&lt;br&gt;-\nabla^2 u(\mathbf{x}) = f(\mathbf{x}), &lt;br&gt;\quad \mathbf{x} \in \Omega&lt;br&gt;$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1491" y="102" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=19;" edge="1" parent="1" source="kZOxa4oMpen5Zl6N6VFC-6" target="kZOxa4oMpen5Zl6N6VFC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-6" value="Finite Element&lt;br&gt;Method (FEM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1731" y="117" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1681" y="132" as="sourcePoint" />
+            <mxPoint x="1731" y="132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-8" value="A x = b" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#c62828;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1901" y="112" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;strokeWidth=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1406.5" y="440" width="686" height="491" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-11" value="Reinforcement Learning Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1507.5" y="452" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;" edge="1" parent="1" source="kZOxa4oMpen5Zl6N6VFC-13" target="kZOxa4oMpen5Zl6N6VFC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-13" value="&lt;div&gt;&lt;b&gt;&lt;font&gt;Graph Neural Network&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Process graph structure&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Extract node features&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0288d1;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1460.5" y="492" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;" edge="1" parent="1" source="kZOxa4oMpen5Zl6N6VFC-15" target="kZOxa4oMpen5Zl6N6VFC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-15" value="&lt;div&gt;&lt;b&gt;&lt;font&gt;State (Observation)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Current graph structure&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;C/F node labels&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1822.5" y="492" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;" edge="1" parent="1" source="kZOxa4oMpen5Zl6N6VFC-19" target="kZOxa4oMpen5Zl6N6VFC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;" edge="1" parent="1" source="kZOxa4oMpen5Zl6N6VFC-19" target="kZOxa4oMpen5Zl6N6VFC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;" edge="1" parent="1" source="kZOxa4oMpen5Zl6N6VFC-19" target="kZOxa4oMpen5Zl6N6VFC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-19" value="&lt;div&gt;&lt;b&gt;&lt;font&gt;RL Agent (Policy)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Action: Select node to coarsen&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Discrete action space (N nodes)&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1602.5" y="641" width="307" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-20" value="&lt;div&gt;&lt;b&gt;&lt;font&gt;Check Termination&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;A_FF diagonally dominant ?&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1770.5" y="791" width="282" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-21" value="&lt;div&gt;&lt;b&gt;&lt;font&gt;Update coarsening&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Mark selected node as C&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Update F nodes&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1460.5" y="791" width="272" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-22" value="Continue episode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1396.5" y="671" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kZOxa4oMpen5Zl6N6VFC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.283;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;strokeWidth=2;" edge="1" parent="1" source="kZOxa4oMpen5Zl6N6VFC-21" target="kZOxa4oMpen5Zl6N6VFC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
