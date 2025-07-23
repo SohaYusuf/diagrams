@@ -317,8 +317,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zBiLx9GL32g1hffTJtXD-64" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Reinforcement Learning Agent&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry x="1865.12" y="1752" width="320" height="30" as="geometry" />
+        <mxCell id="zBiLx9GL32g1hffTJtXD-64" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Graph Reinforcement Learning Framework&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1815.58" y="1752" width="424.88" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
