@@ -57,7 +57,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;arcSize=9;fontColor=#333333;fillStyle=auto;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="2153" y="10" width="807" height="490" as="geometry" />
+          <mxGeometry x="2153" width="807" height="500" as="geometry" />
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-38" value="PPO Training Loop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2389" y="15" width="361" height="30" as="geometry" />
