@@ -57,10 +57,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;arcSize=9;fontColor=#333333;fillStyle=auto;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="2153" y="20" width="807" height="480" as="geometry" />
+          <mxGeometry x="2153" y="10" width="807" height="490" as="geometry" />
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-38" value="PPO Training Loop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="2409" y="25" width="361" height="30" as="geometry" />
+          <mxGeometry x="2389" y="15" width="361" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-40" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#388e3c;strokeWidth=1;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="2601" y="78" width="349" height="113" as="geometry" />
@@ -112,7 +112,7 @@
             <mxPoint x="2650" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W8yTyardiGkAN3yoenl7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeWidth=3;strokeColor=#7F00FF;" edge="1" parent="1" source="kZOxa4oMpen5Zl6N6VFC-60" target="kZOxa4oMpen5Zl6N6VFC-49">
+        <mxCell id="W8yTyardiGkAN3yoenl7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeWidth=4;strokeColor=#7F00FF;" edge="1" parent="1" source="kZOxa4oMpen5Zl6N6VFC-60" target="kZOxa4oMpen5Zl6N6VFC-49">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2190" y="567" />
