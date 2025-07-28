@@ -90,7 +90,7 @@
           <mxGeometry x="2268.75" y="240.38" width="253.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-52" value="Trained Policy π*&lt;br&gt;Coarsens to achieve A_FF diagonal dominance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;strokeWidth=1;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="2653" y="513" width="387" height="107" as="geometry" />
+          <mxGeometry x="2573" y="513" width="387" height="107" as="geometry" />
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-53" value="$$a_t = i$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2510" y="71" width="60" height="22" as="geometry" />
@@ -105,7 +105,7 @@
           <mxGeometry x="2110" y="395" width="213.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-58" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="2550" y="536.5" width="30" height="20" as="geometry" />
+          <mxGeometry x="2492.25" y="580" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=30;" parent="1" source="kZOxa4oMpen5Zl6N6VFC-60" target="kZOxa4oMpen5Zl6N6VFC-52" edge="1">
           <mxGeometry relative="1" as="geometry">
