@@ -82,7 +82,7 @@
           <mxGeometry x="2269.75" y="228.38" width="253.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-52" value="Trained Policy π*&lt;br&gt;Coarsens to achieve A_FF diagonal dominance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;strokeWidth=1;fontSize=30;gradientColor=#ffa500;" parent="1" vertex="1">
-          <mxGeometry x="2573" y="570" width="387" height="107" as="geometry" />
+          <mxGeometry x="2560" y="559" width="400" height="130" as="geometry" />
         </mxCell>
         <mxCell id="kZOxa4oMpen5Zl6N6VFC-53" value="$$a_t = i$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2511" y="59" width="60" height="22" as="geometry" />
