@@ -34,11 +34,11 @@
         <mxCell id="IJmZggZovkUzVdCnAwnD-59" value="&lt;b&gt;Continue&lt;/b&gt;&lt;br&gt;$$s_t \leftarrow s_{t+1}$$$$t \leftarrow t+1$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="680" y="150" width="200" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="IJmZggZovkUzVdCnAwnD-60" value="&lt;b&gt;DQN Components:&lt;/b&gt;&lt;br&gt;• Q(s, a; θ): Q-network with params θ&lt;br&gt;• Q(s&#39;, a&#39;; θ&lt;sup&gt;-&lt;/sup&gt;): Target network&lt;br&gt;• γ: discount factor&lt;br&gt;• α: learning rate&lt;br&gt;• ε: exploration rate (ε-greedy)&lt;br&gt;• D: experience replay buffer&lt;br&gt;• τ: target tolerance for ||Ax-b||" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="530" width="400" height="230" as="geometry" />
+        <mxCell id="IJmZggZovkUzVdCnAwnD-60" value="&lt;blockquote style=&quot;text-align: center; margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DQN Components:&lt;/b&gt;&lt;/blockquote&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Q(s, a; θ): Q-network with params θ&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Q(s&#39;, a&#39;; θ&lt;sup&gt;-&lt;/sup&gt;): Target network&lt;/li&gt;&lt;li style=&quot;&quot;&gt;γ: discount factor&lt;/li&gt;&lt;li style=&quot;&quot;&gt;α: learning rate&lt;/li&gt;&lt;li style=&quot;&quot;&gt;ε: exploration rate (ε-greedy)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;D: experience replay buffer&lt;/li&gt;&lt;li style=&quot;&quot;&gt;τ: target tolerance for ||Ax-b||&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="500" width="430" height="250" as="geometry" />
         </mxCell>
         <mxCell id="IJmZggZovkUzVdCnAwnD-61" value="&lt;b&gt;Objective:&lt;/b&gt;&lt;br&gt;Learn optimal relaxation parameter ω&lt;br&gt;to minimize iterations for convergence&lt;br&gt;of linear system Ax = b" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="190" width="370" height="120" as="geometry" />
+          <mxGeometry x="-200" y="150" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IJmZggZovkUzVdCnAwnD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;fontSize=20;" edge="1" parent="1" source="IJmZggZovkUzVdCnAwnD-50" target="IJmZggZovkUzVdCnAwnD-51">
           <mxGeometry relative="1" as="geometry" />
