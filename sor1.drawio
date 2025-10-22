@@ -22,20 +22,20 @@
         <mxCell id="IJmZggZovkUzVdCnAwnD-55" value="&lt;b&gt;Terminal?&lt;/b&gt;&lt;br&gt;$$||Ax_t-b||_2 \leq \tau$$" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1060" y="336.25" width="220" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="IJmZggZovkUzVdCnAwnD-56" value="&lt;b&gt;Store Transition&lt;/b&gt;&lt;br&gt;&lt;br&gt;D ← (s&lt;sub&gt;t&lt;/sub&gt;, ω, r&lt;sub&gt;t&lt;/sub&gt;, s&lt;sub&gt;t+1&lt;/sub&gt;, done)&lt;br&gt;&lt;br&gt;Replay buffer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="345" width="230" height="150" as="geometry" />
+        <mxCell id="IJmZggZovkUzVdCnAwnD-56" value="&lt;b&gt;Store Transition&lt;/b&gt;&lt;br&gt;$$D \leftarrow (s_t,r_t,s_{t+1},\text{done})$$&lt;div&gt;Replay buffer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1037.5" y="550" width="265" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="IJmZggZovkUzVdCnAwnD-57" value="&lt;b&gt;Train Q-Network&lt;/b&gt;&lt;br&gt;&lt;br&gt;Sample batch from D&lt;br&gt;&lt;br&gt;y = r + γ max&lt;sub&gt;a&#39;&lt;/sub&gt; Q(s&#39;, a&#39;; θ&lt;sup&gt;-&lt;/sup&gt;)&lt;br&gt;&lt;br&gt;L = (y - Q(s, a; θ))²&lt;br&gt;&lt;br&gt;θ ← θ - α∇L" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="295" width="290" height="250" as="geometry" />
+        <mxCell id="IJmZggZovkUzVdCnAwnD-57" value="&lt;b&gt;Train Q-Network&lt;/b&gt;&lt;div&gt;$$y=r+\gamma \text{ max}_a&#39; Q(s&#39;,a&#39;;\theta^{-})$$&lt;div&gt;$$L=(y-Q(s,a;\theta))^2$$&lt;/div&gt;&lt;div&gt;$$\theta \leftarrow \theta - \alpha \nabla L$$&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="670" y="513.75" width="310" height="222.5" as="geometry" />
         </mxCell>
         <mxCell id="IJmZggZovkUzVdCnAwnD-58" value="&lt;b&gt;Episode End&lt;/b&gt;&lt;br&gt;&lt;br&gt;Converged!" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="355" width="160" height="130" as="geometry" />
+          <mxGeometry x="440" y="555" width="170" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="IJmZggZovkUzVdCnAwnD-59" value="&lt;b&gt;Continue&lt;/b&gt;&lt;br&gt;&lt;br&gt;s&lt;sub&gt;t&lt;/sub&gt; ← s&lt;sub&gt;t+1&lt;/sub&gt;&lt;br&gt;t ← t + 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="680" y="175" width="200" height="120" as="geometry" />
+        <mxCell id="IJmZggZovkUzVdCnAwnD-59" value="&lt;b&gt;Continue&lt;/b&gt;&lt;br&gt;$$s_t \leftarrow s_{t+1}$$$$t \leftarrow t+1$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="680" y="150" width="200" height="145" as="geometry" />
         </mxCell>
         <mxCell id="IJmZggZovkUzVdCnAwnD-60" value="&lt;b&gt;DQN Components:&lt;/b&gt;&lt;br&gt;• Q(s, a; θ): Q-network with params θ&lt;br&gt;• Q(s&#39;, a&#39;; θ&lt;sup&gt;-&lt;/sup&gt;): Target network&lt;br&gt;• γ: discount factor&lt;br&gt;• α: learning rate&lt;br&gt;• ε: exploration rate (ε-greedy)&lt;br&gt;• D: experience replay buffer&lt;br&gt;• τ: target tolerance for ||Ax-b||" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="25" y="560" width="400" height="230" as="geometry" />
+          <mxGeometry x="-150" y="530" width="400" height="230" as="geometry" />
         </mxCell>
         <mxCell id="IJmZggZovkUzVdCnAwnD-61" value="&lt;b&gt;Objective:&lt;/b&gt;&lt;br&gt;Learn optimal relaxation parameter ω&lt;br&gt;to minimize iterations for convergence&lt;br&gt;of linear system Ax = b" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-180" y="190" width="370" height="120" as="geometry" />
@@ -78,7 +78,7 @@
         </mxCell>
         <mxCell id="IJmZggZovkUzVdCnAwnD-72" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1" vertex="1" connectable="0" parent="IJmZggZovkUzVdCnAwnD-71">
           <mxGeometry x="-0.3" relative="1" as="geometry">
-            <mxPoint x="-37" y="-5" as="offset" />
+            <mxPoint x="-61" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IJmZggZovkUzVdCnAwnD-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=block;endFill=1;fontSize=20;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJmZggZovkUzVdCnAwnD-59" target="IJmZggZovkUzVdCnAwnD-52">
