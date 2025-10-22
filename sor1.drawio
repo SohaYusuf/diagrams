@@ -13,7 +13,7 @@
         <mxCell id="IJmZggZovkUzVdCnAwnD-52" value="&lt;b&gt;Select Action&lt;/b&gt;&lt;br&gt;&lt;div&gt;$$\omega=\epsilon-\text{greedy}(Q(s_t,a;\theta))$$&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="160" y="357.5" width="290" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="IJmZggZovkUzVdCnAwnD-53" value="&lt;b&gt;Execute Action&lt;/b&gt;&lt;br&gt;$$s_t=(\alpha_t,n_t)=\text{sor}(A,b,\omega)$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="IJmZggZovkUzVdCnAwnD-53" value="&lt;b&gt;Execute Action&lt;/b&gt;&lt;br&gt;$$x_t,n_t=\text{sor}(A,b,\omega)$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="480" y="357.5" width="280" height="122.5" as="geometry" />
         </mxCell>
         <mxCell id="IJmZggZovkUzVdCnAwnD-54" value="&lt;b&gt;Compute Reward&lt;/b&gt;&lt;br&gt;$$r_t=-n_t$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;" vertex="1" parent="1">
