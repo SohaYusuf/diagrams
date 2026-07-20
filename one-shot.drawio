@@ -101,8 +101,13 @@
         <mxCell id="JrYYUXQ7gKbGLozao0iV-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;strokeWidth=2;" value="$$e_{13}$$" vertex="1">
           <mxGeometry height="30" width="60" x="-331" y="207" as="geometry" />
         </mxCell>
-        <mxCell id="JrYYUXQ7gKbGLozao0iV-32" edge="1" parent="1" source="JrYYUXQ7gKbGLozao0iV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" target="JrYYUXQ7gKbGLozao0iV-31">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="JrYYUXQ7gKbGLozao0iV-32" edge="1" parent="1" source="JrYYUXQ7gKbGLozao0iV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="JrYYUXQ7gKbGLozao0iV-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-241" y="683.71" />
+              <mxPoint x="-510" y="683.71" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="JrYYUXQ7gKbGLozao0iV-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Graph Neural Network&lt;/font&gt;" vertex="1">
           <mxGeometry height="126.5" width="230" x="-356" y="511" as="geometry" />
